@@ -13,7 +13,7 @@ class OndiloCloud extends IPSModule
     private const DEVICE = '/device';
     private const CONFIGURATION = '/configuration';
     private const SHARES = '/shares';
-    private const LAST_MEASURES = '/lastmeasures';
+    private const LAST_MEASURES = '/lastmeasures?types[]=temperature&types[]=ph&types[]=orp&types[]=salt&types[]=battery&types[]=tds&types[]=rssi';
     private const SET_OF_MEASURES = '/measures';
     private const RECOMMENDATIONS = '/recommendations';
     private const MICRO_SIEMENS_PER_CENTI_METER = 'MICRO_SIEMENS_PER_CENTI_METER';
